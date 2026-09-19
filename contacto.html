@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contacto | Alto's Game</title>
+
+    <!-- Bootstrap 5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- NAVBAR -->
+    <!-- ========================= -->
+
+    <nav class="navbar fixed-top navbar-expand-md bg-dark" data-bs-theme="dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="Imagenes/joystick.svg" alt="Logo" width="35" height="29"
+                    class="d-inline-block align-text-top">
+
+                Alto's Game
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Mostrar navegación">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+
+                    <!-- SERVICIOS -->
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="Servicios.html">
+                            Servicios
+                        </a>
+                    </li>
+
+                    <!-- CONTACTO -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active" aria-current="page" href="contacto.html">
+
+                            Contacto
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+                <span class="navbar-text text-white">
+
+                    <a href="#" class="text-decoration-none">
+                        +52 55-6603-3464
+                    </a>
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ========================= -->
+    <!-- ESPACIO PARA NAVBAR -->
+    <!-- ========================= -->
+
+    <div class="py-4"></div>
+
+
+    <!-- ========================= -->
+    <!-- ENCABEZADO -->
+    <!-- ========================= -->
+
+    <section class="bg-info text-white py-5">
+
+        <div class="container text-center">
+
+            <h1 class="display-3 fw-bold">
+                ¡Contáctanos!
+            </h1>
+
+            <p class="lead">
+                Estamos aquí para escucharte y ayudarte.
+            </p>
+
+            <p class="mb-0">
+                Envíanos tu mensaje y nos pondremos en contacto contigo.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- FORMULARIO + INFORMACIÓN -->
+    <!-- ========================= -->
+
+    <section class="container my-5">
+
+        <div class="row g-5">
+
+
+            <!-- ========================= -->
+            <!-- FORMULARIO -->
+            <!-- ========================= -->
+
+            <div class="col-12 col-lg-7">
+
+                <div class="card shadow-lg border-0">
+
+                    <div class="card-header bg-dark text-white text-center py-3">
+
+                        <h2 class="h3 mb-0">
+                            Envíanos un mensaje
+                        </h2>
+
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <form action="https://formspree.io/f/mppwwnvl" method="POST">
+
+                            <!-- Nombre -->
+
+                            <div class="mb-3">
+
+                                <label for="nombre" class="form-label fw-bold">
+
+                                    Nombre completo
+
+                                </label>
+
+                                <input type="text" class="form-control form-control-lg" id="nombre"
+                                    placeholder="Escribe tu nombre" required>
+
+                            </div>
+
+
+                            <!-- Correo -->
+
+                            <div class="mb-3">
+
+                                <label for="correo" class="form-label fw-bold">
+
+                                    Correo electrónico
+
+                                </label>
+
+                                <input type="email" class="form-control form-control-lg" id="correo"
+                                    placeholder="ejemplo@correo.com" required>
+
+                            </div>
+
+
+                            <!-- Teléfono -->
+
+                            <div class="mb-3">
+
+                                <label for="telefono" class="form-label fw-bold">
+
+                                    Teléfono
+
+                                </label>
+
+                                <input type="tel" class="form-control form-control-lg" id="telefono"
+                                    placeholder="+52 55 0000 0000">
+
+                            </div>
+
+
+                            <!-- Asunto -->
+
+                            <div class="mb-3">
+
+                                <label for="asunto" class="form-label fw-bold">
+
+                                    Asunto
+
+                                </label>
+
+                                <select class="form-select form-select-lg" id="asunto">
+
+                                    <option selected>
+                                        Selecciona una opción
+                                    </option>
+
+                                    <option>
+                                        Información general
+                                    </option>
+
+                                    <option>
+                                        Solicitar información
+                                    </option>
+
+                                    <option>
+                                        Soporte técnico
+                                    </option>
+
+                                    <option>
+                                        Comentarios
+                                    </option>
+
+                                    <option>
+                                        Otro
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- Mensaje -->
+
+                            <div class="mb-3">
+
+                                <label for="mensaje" class="form-label fw-bold">
+
+                                    Mensaje
+
+                                </label>
+
+                                <textarea class="form-control" id="mensaje" rows="6"
+                                    placeholder="Escribe aquí tu mensaje..." required></textarea>
+
+                            </div>
+
+
+                            <!-- Checkbox -->
+
+                            <div class="form-check mb-4">
+
+                                <input class="form-check-input" type="checkbox" id="terminos" required>
+
+                                <label class="form-check-label" for="terminos">
+
+                                    Acepto que mis datos sean utilizados
+                                    únicamente para responder a mi solicitud.
+
+                                </label>
+
+                            </div>
+
+
+                            <!-- Botón -->
+
+                            <div class="d-grid">
+
+                                <button type="submit" class="btn btn-info btn-lg text-white">
+
+                                    Enviar mensaje
+
+                                </button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ========================= -->
+            <!-- INFORMACIÓN DE CONTACTO -->
+            <!-- ========================= -->
+
+            <div class="col-12 col-lg-5">
+
+                <div class="card shadow border-0 h-100">
+
+                    <div class="card-body p-4">
+
+                        <h2 class="display-6">
+                            Ponte en contacto
+                        </h2>
+
+                        <p class="lead text-info">
+
+                            ¿Tienes alguna pregunta?
+
+                        </p>
+
+                        <p>
+                            Puedes comunicarte con nosotros utilizando
+                            cualquiera de los siguientes medios.
+                        </p>
+
+
+                        <hr>
+
+
+                        <!-- Teléfono -->
+
+                        <div class="d-flex mb-4">
+
+                            <div class="me-3">
+
+                                <span class="fs-1">
+                                    📱
+                                </span>
+
+                            </div>
+
+                            <div>
+
+                                <h5>
+                                    Teléfono
+                                </h5>
+
+                                <p class="mb-0">
+                                    +52 55-6603-3464
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Correo -->
+
+                        <div class="d-flex mb-4">
+
+                            <div class="me-3">
+
+                                <span class="fs-1">
+                                    ✉️
+                                </span>
+
+                            </div>
+
+                            <div>
+
+                                <h5>
+                                    Correo electrónico
+                                </h5>
+
+                                <p class="mb-0">
+                                    contacto@altosgame.com
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Horario -->
+
+                        <div class="d-flex mb-4">
+
+                            <div class="me-3">
+
+                                <span class="fs-1">
+                                    🕐
+                                </span>
+
+                            </div>
+
+                            <div>
+
+                                <h5>
+                                    Horario de atención
+                                </h5>
+
+                                <p class="mb-0">
+                                    Lunes a viernes
+                                </p>
+
+                                <p class="mb-0">
+                                    9:00 AM - 6:00 PM
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Ubicación -->
+
+                        <div class="d-flex mb-4">
+
+                            <div class="me-3">
+
+                                <span class="fs-1">
+                                    📍
+                                </span>
+
+                            </div>
+
+                            <div>
+
+                                <h5>
+                                    Ubicación
+                                </h5>
+
+                                <p class="mb-0">
+                                    Ciudad de México, México
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <hr>
+
+
+                        <!-- Redes sociales -->
+
+                        <h5 class="text-center mb-3">
+                            Síguenos en redes sociales
+                        </h5>
+
+                        <div class="d-flex justify-content-center gap-3">
+
+                            <a href="#" class="btn btn-primary">
+
+                                Facebook
+
+                            </a>
+
+                            <a href="#" class="btn btn-danger">
+
+                                Instagram
+
+                            </a>
+
+                            <a href="#" class="btn btn-dark">
+
+                                X
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- LLAMADA A LA ACCIÓN -->
+    <!-- ========================= -->
+
+    <section class="container-fluid bg-dark text-white py-5">
+
+        <div class="container text-center">
+
+            <h2 class="display-5 fw-bold">
+                ¿Prefieres contactarnos directamente?
+            </h2>
+
+            <p class="lead">
+                Estamos disponibles para atender tus preguntas.
+            </p>
+
+            <a href="https://wa.me/525566033464" class="btn btn-success btn-lg">
+
+                💬 Escríbenos por WhatsApp
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- PREGUNTAS FRECUENTES -->
+    <!-- ========================= -->
+
+    <section class="container my-5">
+
+        <div class="text-center mb-5">
+
+            <h2 class="display-5">
+                Preguntas frecuentes
+            </h2>
+
+            <p class="lead text-info">
+                Tal vez aquí encuentres la respuesta que buscas.
+            </p>
+
+        </div>
+
+
+        <div class="accordion" id="accordionContacto">
+
+
+            <!-- Pregunta 1 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta1"
+                        aria-expanded="true" aria-controls="pregunta1">
+
+                        ¿Cómo puedo solicitar información?
+
+                    </button>
+
+                </h2>
+
+                <div id="pregunta1" class="accordion-collapse collapse show" data-bs-parent="#accordionContacto">
+
+                    <div class="accordion-body">
+
+                        Puedes utilizar nuestro formulario de contacto,
+                        enviarnos un mensaje por WhatsApp o utilizar
+                        cualquiera de nuestros medios de comunicación.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Pregunta 2 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#pregunta2" aria-expanded="false" aria-controls="pregunta2">
+
+                        ¿Cuánto tardan en responder?
+
+                    </button>
+
+                </h2>
+
+                <div id="pregunta2" class="accordion-collapse collapse" data-bs-parent="#accordionContacto">
+
+                    <div class="accordion-body">
+
+                        Procuramos responder todas las solicitudes
+                        dentro de nuestro horario de atención.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Pregunta 3 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#pregunta3" aria-expanded="false" aria-controls="pregunta3">
+
+                        ¿Puedo comunicarme por WhatsApp?
+
+                    </button>
+
+                </h2>
+
+                <div id="pregunta3" class="accordion-collapse collapse" data-bs-parent="#accordionContacto">
+
+                    <div class="accordion-body">
+
+                        Sí. Puedes utilizar el botón de WhatsApp
+                        disponible en esta página para iniciar una
+                        conversación directamente.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Pregunta 4 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#pregunta4" aria-expanded="false" aria-controls="pregunta4">
+
+                        ¿Qué información debo proporcionar?
+
+                    </button>
+
+                </h2>
+
+                <div id="pregunta4" class="accordion-collapse collapse" data-bs-parent="#accordionContacto">
+
+                    <div class="accordion-body">
+
+                        Indica tu nombre, un medio de contacto y explica
+                        brevemente el motivo de tu consulta. Esto nos
+                        permitirá atenderte de una manera más rápida.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <div class="container">
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-4 border-top">
+
+            <div class="col-md-4 d-flex align-items-center">
+
+                <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none">
+
+                    <img src="Imagenes/joystick.svg" width="30" height="24" alt="Logo">
+
+                </a>
+
+                <span class="mb-3 mb-md-0 text-body-secondary">
+
+                    © 2026 Alto's Game
+
+                </span>
+
+            </div>
+
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+
+                <li class="ms-3">
+
+                    <a href="#" class="text-body-secondary text-decoration-none">
+
+                        Twitter
+
+                    </a>
+
+                </li>
+
+                <li class="ms-3">
+
+                    <a href="#" class="text-body-secondary text-decoration-none">
+
+                        Instagram
+
+                    </a>
+
+                </li>
+
+                <li class="ms-3">
+
+                    <a href="#" class="text-body-secondary text-decoration-none">
+
+                        Facebook
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </footer>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- JAVASCRIPT BOOTSTRAP -->
+    <!-- ========================= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
